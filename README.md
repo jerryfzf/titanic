@@ -30,8 +30,8 @@ for i = 1 : 3
 end
 
 for i = 1 : 418
-    P1 = 1;
-    P2 = 1;
+    P1 = 342 / 891;
+    P2 = 1 - P1;
     if strcmp(Test.Sex{i} ,'male')
        P1 = Pgender1(1) * P1;
        P2 = Pgender0(1) * P2;
